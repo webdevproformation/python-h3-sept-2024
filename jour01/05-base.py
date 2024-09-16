@@ -92,17 +92,22 @@ premier , deuxieme = 10 , 20
 # cas pratique 
 
 """ 
-nom de variable 
-Variable
-Nom de Variable
-123Nom_De_Variable
-Nom_De_Variable
-nom_de_variable
-toto@mailcity.com
-nom_de_variable_123
-Nom-de-variable
-_function
-function 
+nom de variable  => KO espace
+Variable         => OK
+Nom de Variable  => KO espace
+123Nom_De_Variable => KO 1er caractère ne doit pas être un chiffre
+Nom_De_Variable    => OK
+nom_de_variable    => OK
+toto@mailcity.com  => KO @ et .
+nom_de_variable_123 => OK
+Nom-de-variable    => KO - 
+_function          => OK 
+function           => def OK 
 """
 
 # quelle nom de variable est valide / invalide => si invalide pourquoi ??
+
+# mot réservé 
+# True False 
+def true ():
+    pass 
