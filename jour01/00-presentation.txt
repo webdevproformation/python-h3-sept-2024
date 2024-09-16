@@ -1,0 +1,49 @@
+Malik HARRIZ
+Freelance et formateur
+
+m.harriz@h3campus.fr 
+
+-------------
+
+code wifi :
+
+// L3_DEV
+// Hitema741
+
+-------------
+
+=> discord (à venir)
+
+-------------
+
+Python initiation 
+
+support de cours en ligne (base)
+
+url : https://formation.webdevpro.net/python-initiation
+login : python
+password : v3
+
+
+support de cours en ligne (poo)
+à venir (dans 2 jours max)
+
+=>  https://sharemycode.fr/2ms
+
+
+const a = {
+    largeur : 2 ,
+    hauteur : 30
+}
+
+a.largeur 
+
+const {largeur} = a
+
+
+----- 
+
+premier = 10 
+deuxieme = 20 
+
+premier, deuxieme = 10, 20 
