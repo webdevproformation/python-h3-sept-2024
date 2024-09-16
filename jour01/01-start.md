@@ -38,3 +38,15 @@ PyCharm => deux versions
     => version community (gratuite)
 
 https://www.jetbrains.com/pycharm/download/
+
+--- 
+
+installer Python sur votre ordinateur 
+
+lancer un terminal => 
+
+python --version 
+
+pour suivre ce cours => minimum la version 3.6 du langage 
+
+// premier cas pratique => hello world 
