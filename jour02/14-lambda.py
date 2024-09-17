@@ -20,6 +20,9 @@ def soustraction(a,b): # 4 instructions => impossible de la transformer en fonct
     
 sous2 = lambda a,b : 10 if a > 0 and b > 0 else a - b
 
+print(soustraction(-2,-5))
+print(sous2(-2,-5))
+
 # cas pratique
 # vous avez une liste qui contient les valeurs suivantes 
 # [1,2,4,5,6, 10]
