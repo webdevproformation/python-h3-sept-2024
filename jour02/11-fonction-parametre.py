@@ -35,4 +35,7 @@ def modifierTuple(tuple):
     tuple.update("4")
 
 modifierTuple(tuple)
-print(tuple) """
+print(tuple) 
+les tuples sont immutables ils ne peuvent pas être modifié même via un traitement 
+dans une fonction
+"""
