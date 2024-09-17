@@ -78,3 +78,18 @@ fleurs = { "jasmin" , "rose" , "lilas" } # mutable (ajouter / supprimer) / pas d
 # performance 
 ```
 
+
+créer un nouveau fichier 01-exo.py
+
+dans ce fichier vous avez une liste 
+fleurs = [ "jasmin" , "rose" , "lilas" ]
+prix = 12.5
+
+vous devez écrire dans le terminal le texte suivant 
+
+j'ai acheté des jasmins et des roses pour 12.5 €
+
+rappel concaténation
+ +
+f"  {}"
+"{} {}".format()
