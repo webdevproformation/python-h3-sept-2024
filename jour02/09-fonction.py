@@ -60,3 +60,19 @@ def genererPage( **kwarg ): # keyword argments
     # en dictionnaire 
 
 genererPage( titre = "page 1" , auteur = "Victor Hugo" , dte = "1er janvier" )
+
+
+# Créer un nouveau fichier .py
+# 
+# 1/ déclarer une fonction aireCercle 
+# 
+# 2/ cette fonction dispose d'un paramètre rayon
+# 
+# 3/ cette fonction dispose de deux instructions :
+# - déclarer la variable resultat = 3,14 * rayon * rayon
+# - afficher dans la console la phrase suivante :
+# l'aire d'un cercle de rayon rayon a une aire de resultat
+# 
+# 4/ exécuter la fonction aireCercle pour le rayon
+# 44,5
+# 70,43
