@@ -34,7 +34,7 @@ def calcul(a : float, b : int) -> float :
 
 # calcul("10px", [1,2])
 print(help(calcul))
-print(help(type))
+# print(help(type))
 
 """
 créer un nouveau fichier 13-exo.py
