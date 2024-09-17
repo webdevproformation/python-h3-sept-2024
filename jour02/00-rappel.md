@@ -81,7 +81,7 @@ fleurs = { "jasmin" , "rose" , "lilas" } # mutable (ajouter / supprimer) / pas d
 
 créer un nouveau fichier 01-exo.py
 
-dans ce fichier vous avez une liste 
+dans ce fichier vous avez une liste et un float
 fleurs = [ "jasmin" , "rose" , "lilas" ]
 prix = 12.5
 
