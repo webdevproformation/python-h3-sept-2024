@@ -66,7 +66,7 @@ def insertEnBdd():
 
 insertEnBdd()
 
-# cas pratique créer le fichier 19-exo.py
+# cas pratique créer le fichier 19-exo.py 
 # dans ce fichier créer deux fonctions décoratrices
 # bonjour qui va afficher le texte bonjour 
 # identifiant cette deuxième fonction => vous demande de saisir dans le terminal un id => input()
