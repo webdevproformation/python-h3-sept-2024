@@ -27,4 +27,4 @@ sous2 = lambda a,b : 10 if a > 0 and b > 0 else a - b
 # [ 1 , 5  ]
 
 # boucle ET condition
-# sort() et une fonction lambda
+# filter() et une fonction lambda
