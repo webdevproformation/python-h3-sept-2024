@@ -42,5 +42,5 @@ créer un nouveau fichier 13-exo.py
 dans ce fichier vous allez créer une fonction qui permet de 
 convertir une temperature de Celsus => Farenheit
 (voir la formule dans le fichier ci joint)
-
+https://github.com/webdevproformation/python-h3-sept-2024/blob/main/jour02/12-exercise-11.png
 """
