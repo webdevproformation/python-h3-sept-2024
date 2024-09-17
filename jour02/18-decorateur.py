@@ -45,3 +45,22 @@ bonjour
 fin timer
 """
 
+
+def mailAdmin(f):
+    def wrapper():
+        f()
+        print("envoyer email admin")
+    return wrapper
+
+def mailRemerciement(f):
+    def wrapper():
+        f()
+        print("envoyer au user inscrit")
+    return wrapper
+
+@mailAdmin
+@mailRemerciement
+def insertEnBdd():
+    print("insert")
+
+insertEnBdd()
