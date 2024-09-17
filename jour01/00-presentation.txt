@@ -30,6 +30,7 @@ url : https://formation.webdevpro.net/python-initiation
 login : python
 password : v3
 
+https://github.com/webdevproformation/python-h3-sept-2024
 
 support de cours en ligne (poo)
 à venir (dans 2 jours max)
