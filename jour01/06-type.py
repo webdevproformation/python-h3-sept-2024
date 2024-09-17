@@ -32,8 +32,11 @@ isFalse = False
 # tableau / variable complexe => 4 types de tableaux dans Python 
 
 list = [1,2,3 ] # mutable ajouter et modifier valeur 
-tuple = (1,2,3) # pas modifier les valeurs append() remove()
-set = { 1,2,3 } # immutable => impossible de la modifier 
+tuple = (1,2,3) # immutable 
+set = { 1,2,3 } # une fois créé plus possible de modifier
+                # une valeur existante 
+                # par contre tu peux ajouter ET retirer 
+                
 
 list = [1,2,3 ] # mutable ajouter et modifier clé / valeur 
 dictionnaire = { 
