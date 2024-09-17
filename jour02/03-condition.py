@@ -69,10 +69,16 @@ pour chaque comparaison dire si le résultat est True ou False
 "a" == "ab"
 2 != 3 and 10 < 33
 "hello" > "bonjour" 
-2 ==  "2"
+2  ==  "2"
 "2" == "2"
 (2 != 5 and 3 > 4 ) or 2 <= 14 
 2 != 5 and ( 3 > 4  or 2 <= 14 ) 
 2 != 5 and 3 > 4  or 2 <= 14  
 
+"""
+
+"""
+serveur discord 
+
+https://discord.gg/D6gXqqK4
 """
