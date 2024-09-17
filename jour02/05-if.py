@@ -49,7 +49,7 @@ if couleur : # "" => transforme en False
     print("voici la couleur")
 
 
-# créer un nouveau fichier py contenant une variable ville
+# créer un nouveau fichier 06-exo.py contenant une variable ville
 # initialiser la variable ville = "Marseille"
 
 # si ville a pour valeur Paris 
@@ -63,3 +63,10 @@ if couleur : # "" => transforme en False
 
 # sinon
 # afficher dans la console "vous habitez hors d'Ile de France"
+
+# if elif else
+
+ville = "Lille"
+
+if ville == "Paris" or "Marseille"  :
+    print("condition")
