@@ -58,9 +58,19 @@ def mailRemerciement(f):
         print("envoyer au user inscrit")
     return wrapper
 
-@mailAdmin
+@mailAdmin     # fonction décoratrice etendre le comportement de la fonction insertEnBdd
+               # class => @property (setter et getter en PHP Java)
 @mailRemerciement
 def insertEnBdd():
     print("insert")
 
 insertEnBdd()
+
+# cas pratique créer le fichier 19-exo.py
+# dans ce fichier créer deux fonctions décoratrices
+# bonjour qui va afficher le texte bonjour 
+# identifiant cette deuxième fonction => vous demande de saisir dans le terminal un id => input()
+
+# si la valeur saisie == "10" alors exécuter la fonction login
+# 
+# afficher le texte "bienvenue dans l'espace de gestion"
