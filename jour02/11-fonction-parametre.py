@@ -29,3 +29,10 @@ def modifierSet( set ):
 modifierSet( set )
 print(set)
     
+""" tuple = (1,2,3)
+
+def modifierTuple(tuple):
+    tuple.update("4")
+
+modifierTuple(tuple)
+print(tuple) """
