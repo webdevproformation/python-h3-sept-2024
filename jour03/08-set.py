@@ -70,10 +70,16 @@ print(s6)  # {1, 2, 4, 5}
 # créer un nouveau fichier .py
 ## vous avez 3 listes 
 
-employees = ['Corey', 'Jim' , 'Steven' , 'April' , 'Judy' , 'Jenn' , 'John' , 'Jane']
+employees = ['Corey', 'Jim' , 'Steven' , 'April' , 'Judy' , 'Jenn' , 'John' , 'Jane'] 
 gym_members = ['April', 'John' , 'Corey']
 developers = ['Judy' , 'Corey' , 'Steven' , 'Jane' , 'April']
 
+set_employees = set(employees)
+set_gym_members = set(gym_members)
+set_developers = set(developers)
+
+dev_and_gym = set_developers.intersection(set_gym_members)
+print(dev_and_gym)
 
 # quels sont les utilisateurs qui sont developpers et sont inscrits au club de gym
 
