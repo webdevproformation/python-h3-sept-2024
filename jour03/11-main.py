@@ -35,7 +35,7 @@ vars(module)
 """
 créer un nouveau fichier 12-exo.py 
 
-créer une fonction qui permet de traduire / convertir un chiffre romain en un chiffre
+créer une fonction qui permet de traduire / convertir un chiffre romain en un chiffre arabe
     I => 1
     II => 2
     III => 3
