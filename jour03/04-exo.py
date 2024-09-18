@@ -5,3 +5,9 @@ def palindrome(text : str) -> bool:
 print(palindrome("Bonjour"))
 print(palindrome("Lol"))
 print(palindrome("KayAk"))
+
+
+palindrome2 = lambda mot : mot.lower() == mot.lower()[::-1] 
+
+print(palindrome2("lol"))
+print(palindrome2("Lol"))
