@@ -178,4 +178,22 @@ def connexion():
 connexion()
 ```
 
-créer le fichier 01
+créer le fichier 01-exo.py
+
+ce fichier contient une liste de dictionnaire : etudiants 
+
+etudiants = [
+    { "nom" : "Alain" , "note" : 15 } , 
+    { "nom" : "Benjamin" , "note" : 10 } , 
+    { "nom" : "Céline" , "note" : 18 } , 
+    { "nom" : "Céline" , "note" : 9 } , 
+    { "nom" : "Alain" , "note" : 12 } , 
+    { "nom" : "Alain" , "note" : 18 } , 
+]
+
+// pouvez vous afficher dans le terminal : 
+[ 
+    {"nom" : "Alain" , "moyenne" : ? }
+    {"nom" : "Benjamin" , "moyenne" : ? }
+    {"nom" : "Céline" , "moyenne" :  ? }
+]
