@@ -31,7 +31,7 @@ dt_creation DATETIME DEFAULT CURRENT_TIMESTAMP
 # ( 'Céline' , '2021-12-15')
 # """)
 
-# connexion.commit()
+connexion.commit()
 # en + bonus
 cursor.execute("SELECT * FROM exemple")
 lignes = cursor.fetchall()
