@@ -17,3 +17,23 @@ print(vars(a))
 {'total': 3}
 la propriété total n'est disponible QUE dans l'instance elle n'existe pas dans la class 
 """
+
+"""
+# créer un nouveau fichier 13-exo.py 
+# créer une class Livre
+# cette class contient 5 propriétés :
+# auteur Victor Hugo
+# nom Les Misérables
+# prix 20
+# devise euros
+# anneeParution 1862
+
+# cette class contient 2 méthodes :
+# méthode 1 : synopsis
+# print() => "Victor Hugo a publié Les Misérables en 1862"
+
+# méthode 2 : vente
+# print() "Pour acheter, Les Misérables il faudra débourser 20 euros"
+
+# exécuter les deux méthodes 
+"""
