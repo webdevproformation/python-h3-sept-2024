@@ -19,4 +19,17 @@ etudiants = { "Alain" , "Céline" , "Benois", "Zorro" }
 
 """ for i in etudiants:
     print(i) """
-print(etudiants[0]) # TypeError: 'set' object is not subscriptable
+# print(etudiants[0]) # TypeError: 'set' object is not subscriptable
+
+
+u1 = {1,2,3,4,5,6}
+u2 = {1,2,3,4,7,8,9}
+
+commune_au_deux = u1.union(u2)
+print(commune_au_deux) # {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+intersection = u1.intersection(u2)
+print(intersection) # {1, 2, 3, 4}
+
+inverse_intersection = u1.symmetric_difference(u2)
+print(inverse_intersection) # {5, 6, 7, 8, 9}

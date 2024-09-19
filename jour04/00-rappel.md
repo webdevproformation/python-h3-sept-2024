@@ -114,3 +114,16 @@ etudiant.get((1,2), "NaN") # retourne la valeur si elle existe sinon "NaN"
 
 ```
 
+Créer un nouveau fichier 01-exo.py
+
+- écrire une fonction nommée anagram qui vérifie si deux chaînes fournies sont des anagrammes l'une de l'autre; 
+- la casse des lettres ne devrait pas avoir d’importance.
+- En outre, ne considérez que les caractères, pas les espaces ou la ponctuation 
+
+
+Voici quelques exemples :
+anagram('finder', 'Friend')  => True
+anagram('hello', 'bye') => False
+anagram('Mary', 'Army') => True
+anagram('nectar', 'carnet ') => True
+
