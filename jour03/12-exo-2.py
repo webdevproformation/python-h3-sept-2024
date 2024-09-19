@@ -32,3 +32,5 @@ resultat = convertir_chiffre_romain(romain_input.upper())
 print(f"Le chiffre correspondant à {romain_input} est : {resultat}")
 
 # good !!!
+
+# pip

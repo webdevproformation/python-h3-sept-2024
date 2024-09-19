@@ -6,14 +6,12 @@ chiffres= {
 }
 
 """
-
 I => 1
 II => 1 1 => 2
 III = 1 1 1 => 1 + 1 + 1 = 3
 IV  = 1 5   => - 1 + 5  => 4
 V  = 5 
 IX  =        => -1 + 10 => 9 
-
 """
 
 def convertifRomainChiffreArabe(nombreEnChiffreRomain : str) -> int :
