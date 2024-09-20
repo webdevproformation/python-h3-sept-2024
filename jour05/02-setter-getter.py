@@ -67,4 +67,6 @@ print(vars(e))
 
 # utiliser créer des  setter et getter qui vont garantir les valeurs associées à ces propriétés sont conformes à vos attentes 
 
+# Bonus : mettre des messages d'erreur si ce n'est pas conforme ! 
+
 """
