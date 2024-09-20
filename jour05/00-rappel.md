@@ -77,7 +77,6 @@ a.prop
 # adresse = string = ""
 # isVendu = boolean = False 
 
-
 # class Personne 
 # 1 propriété nom = string = ""
 
