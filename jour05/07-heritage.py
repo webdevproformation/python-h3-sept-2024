@@ -57,6 +57,41 @@ class Etudiant(Humain):
 e = Etudiant()
 print(e.recupererNom())
 
+
+class Article :
+    def __init__(self, titre, contenu , dt_creation):
+        self.titre = titre
+        self.contenu = contenu
+        self.dt_creation = dt_creation
+    
+    def genererHTML(self):
+        return f"""
+            <article>
+            <h2>{self.titre}</h2>
+            <p>{self.contenu}</p>
+            <p>date de création : {self.dt_creation} </p>
+            </article>
+        """
+
+class ArticleTechnique(Article):
+    def __init__(self, titre, contenu , dt_creation):
+        super().__init__(titre, contenu , dt_creation)
+    
+class  ArticleUne(Article):
+    def __init__(self, titre, contenu , dt_creation):
+        super().__init__(titre, contenu , dt_creation)
+
+    def genererHTML(self):
+        return f"""
+            <article class="article-une">
+            <h2>{self.titre}</h2>
+            <p>date de création : {self.dt_creation} </p>
+            </article>
+        """
+
+a = ArticleTechnique()
+
+
 """
 créer un fichier 08-exo.py
 
