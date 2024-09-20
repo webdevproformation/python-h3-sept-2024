@@ -79,7 +79,7 @@ a.prop
 
 
 # class Personne 
-# 1 propriété privée nom = string = ""
+# 1 propriété nom = string = ""
 
 # méthode acheter 
 # changer son status d'une maison  isVendu false => True 
