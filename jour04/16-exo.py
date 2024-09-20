@@ -1,7 +1,9 @@
 class Personnage:
+    
     def __init__(self, nom,vie = 100):
         self.nom = nom
         self.vie = vie
+
     def frapper(self , personnage):
         personnage.vie -= 10
 
