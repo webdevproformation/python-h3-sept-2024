@@ -63,5 +63,33 @@ a.prop
 # => arbre d'héritage entre instance et la class
 ```
 
+## Annexe à regarder
 
 - <https://medium.com/analytics-vidhya/simulating-the-solar-system-with-under-100-lines-of-python-code-5c53b3039fc6>
+- 
+## cas pratique
+
+```py
+# cas pratique : créer un nouveau fichier 01-exo.py
+
+# créer une class Maison
+# contient 2 propriétés 
+# adresse = string = ""
+# isVendu = boolean = False 
+
+
+# class Personne 
+# 1 propriété privée nom = string = ""
+
+# méthode acheter 
+# changer son status d'une maison  isVendu false => True 
+
+# la personne va pouvoir acheter la maison changer son status isVendu False => True 
+
+# créer une maison  adresse => "75 rue de Paris 75000 Paris"
+# créer une personne nom Alain
+# Alain va acheter cette maison 
+
+# vérifier que le status de la maison est désormais à la valeur True 
+    
+```
