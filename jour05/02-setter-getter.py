@@ -25,7 +25,6 @@ utilisation du getter
 22
 """
 
-
 class Etudiant :
 
     @property # getter
