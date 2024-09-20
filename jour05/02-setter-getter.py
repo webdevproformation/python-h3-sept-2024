@@ -54,3 +54,17 @@ e.age = 44
 e.nom = "Zorro"
 e._Etudiant__nom = "Pierro"
 print(vars(e))
+
+
+"""
+# créer un nouveau fichier 03-exo.py
+# créer une class Formation
+# 2 propriétés nom / sujets
+
+# créer les setter et getter pour ces deux propriétés
+# nom => obligatoire une string de minimum 5 lettres
+# sujet => obligatoirement un liste qui contient au moins 2 valeurs 
+
+# utiliser créer des  setter et getter qui vont garantir les valeurs associées à ces propriétés sont conformes à vos attentes 
+
+"""
