@@ -65,7 +65,7 @@ print(vars(e))
 # nom => obligatoire une string de minimum 5 lettres
 # sujets => obligatoirement une liste qui contient au moins 2 valeurs 
 
-# utiliser créer des  setter et getter qui vont garantir les valeurs associées à ces propriétés sont conformes à vos attentes 
+# créer des  setter et getter qui vont garantir que les valeurs associées à ces propriétés sont conformes à vos attentes 
 
 # Bonus : mettre des messages d'erreur si ce n'est pas conforme ! 
 
